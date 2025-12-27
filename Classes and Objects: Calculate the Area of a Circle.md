@@ -12,8 +12,20 @@ To write a Python program that calculates the **area of a circle** based on the 
 
 ## 🧾 Program
 
-Add code here
+```
+count = 0
+
+with open("story.txt", "r") as file:
+    for line in file:
+        if not line.startswith('T'):
+            count += 1
+
+print("Number of lines not starting with 'T':", count)
+```
 
 ## Output
+<img width="715" height="91" alt="image" src="https://github.com/user-attachments/assets/24eb9bde-46cd-4377-8ff9-8100eeb68a05" />
+
 
 ## Result
+Thus the program is run successfully
