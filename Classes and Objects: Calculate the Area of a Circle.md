@@ -13,14 +13,16 @@ To write a Python program that calculates the **area of a circle** based on the 
 ## 🧾 Program
 
 ```
-count = 0
+import math
 
-with open("story.txt", "r") as file:
-    for line in file:
-        if not line.startswith('T'):
-            count += 1
+class cse:
+    def mech(self, radius):
+        area = math.pi * radius ** 2
+        print("Area of the circle:", area)
 
-print("Number of lines not starting with 'T':", count)
+radius = float(input("Enter the radius of the circle: "))
+obj = cse()
+obj.mech(radius)
 ```
 
 ## Output
